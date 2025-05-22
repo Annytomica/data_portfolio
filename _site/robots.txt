@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://annytomica.github.io/data_portfolio/sitemap.xml

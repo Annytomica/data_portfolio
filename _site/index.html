@@ -27,17 +27,25 @@
 </head>
 <body>
     <!-- Header -->
-    {% include "header.njk" %}
+    <nav class="navbar navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="/">Anny Devoy</a>
+  </div>
+</nav>
 
     <!-- Main Content-->
     <main class="container py-5">
         <img src="assets/images/Logo2_circle2.webp" alt="logo">
         <h1>Portfolio Coming Soon!</h1>
-        {{ content | safe }}
+        <h2>Portfolio</h2>
+<p>THis is my portfolio of research and data projects</p>
+
     </main>
 
     <!-- Footer -->
-    {% include "footer.njk" %}
+    <footer class="text-center py-4">
+  <p>&copy; 2025 Annytomica</p>
+</footer>
     
     <!-- Bootstrap JavaScript --> 
     <script

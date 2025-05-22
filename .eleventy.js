@@ -3,13 +3,14 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets");
   // Pass through these files to the output
   eleventyConfig.addPassthroughCopy("robots.txt");
+  eleventyConfig.addPassthroughCopy("sitemap.xml.njk");
 
-// directs sitemap to sitemap.xml
-return {
-  dir: {
-    input: ".",
-    output: "_site"
-  },
-  // optional override for template file extensions
-  templateFormats: ["njk", "md"]
+    return {
+    dir: {
+        input: ".",
+        output: "_site"
+    },
+    // optional override for template file extensions
+    templateFormats: ["njk", "md"]
+    };
 };

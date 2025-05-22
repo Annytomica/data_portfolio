@@ -1,3 +1,3 @@
 module.exports = {
-  url: "https://your-username.github.io" // Replace with your deployed URL
+  url: "https://annytomica.github.io/data_portfolio/" // Replace with your deployed URL
 };
